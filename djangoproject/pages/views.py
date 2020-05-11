@@ -12,3 +12,7 @@ def about(request):
 
 def contact(request):
     return render(request, "contact.html", {})
+
+
+def journey(request):
+    return render(request, "journey.html", {})
